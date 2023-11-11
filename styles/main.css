@@ -162,6 +162,11 @@ color: var(--clr-white);
     margin-bottom: -1rem;
 }
 
+.boton-carrito.active .numerito
+{
+    background-color: var(--clr-white);
+    color: var(--clr-alice);
+}
 .numerito
 {
     background-color: white;
@@ -249,7 +254,7 @@ color: var(--clr-white);
     color: white;
     text-transform: uppercase;
     cursor: pointer;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 1rem; 
     border-bottom-right-radius: 1rem;
 }
 
